@@ -1,16 +1,6 @@
-import React from 'react';
+import React from "react";
+import type { MLButton } from "./button.types";
 
-export type ButtonProps = {
-  /**
-   * a text to be rendered in the component.
-   */
-  text: string
+export const Button: MLButton = ({ ...rest }) => {
+  return <button>Example Button</button>;
 };
-
-export function Button({ text }: ButtonProps) {
-  return (
-    <div>
-      {text}
-    </div>
-  );
-}

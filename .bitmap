@@ -15,5 +15,11 @@
         "mainFile": "index.ts",
         "rootDir": "ui-dev/component/button"
     },
+    "type/common": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui-dev/type/common"
+    },
     "$schema-version": "14.9.0"
 }
