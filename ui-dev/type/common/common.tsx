@@ -1,5 +1,3 @@
-import type { HTMLAttributes, FunctionComponent } from "react";
-
-export interface IMLComponentProps extends HTMLAttributes<HTMLDivElement> {}
+import type { FunctionComponent } from "react";
 
 export type MLComponent<T = {}> = FunctionComponent<T>;

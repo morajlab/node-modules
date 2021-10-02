@@ -1,4 +1,5 @@
 import { createElement } from "react";
+import { Bare } from "@ui-dev/component.bare";
 import { Styles } from "./text.styles";
 import type { TextComponent } from "./text.types";
 
@@ -8,9 +9,8 @@ export const Text: TextComponent = ({
   selectable,
   ...rest
 }) => {
-  as = as ?? "div";
+  const element = as ?? Bare;
+  const { root } = Styles({ fontFamily, selectable });
 
-  const { root } = Styles({ as, fontFamily, selectable });
-
-  return createElement(as, { ...root, ...rest });
+  return createElement(element, { ...root, ...rest });
 };

@@ -9,6 +9,12 @@
  */
 
 {
+    "component/bare": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui-dev/component/bare"
+    },
     "component/button": {
         "scope": "",
         "version": "",

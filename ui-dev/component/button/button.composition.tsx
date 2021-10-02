@@ -22,3 +22,7 @@ export const ActionButton = () => (
     Action Button
   </Button>
 );
+
+export const NonBareButton = () => (
+  <Button bare={false}>Non Bare Button</Button>
+);
