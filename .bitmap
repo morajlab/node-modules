@@ -21,6 +21,18 @@
         "mainFile": "index.ts",
         "rootDir": "ui-dev/component/button"
     },
+    "component/image": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui-dev/component/image"
+    },
+    "component/link": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui-dev/component/link"
+    },
     "component/text": {
         "scope": "",
         "version": "",
