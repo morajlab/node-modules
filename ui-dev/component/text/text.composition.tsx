@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Text } from "./text";
 
-export const BasicText = () => (
+export const BareText = () => (
   <Text>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ex et
     sapiente quidem accusamus omnis ad porro ipsa magnam, molestias ab nemo
