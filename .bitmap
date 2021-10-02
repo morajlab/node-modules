@@ -15,11 +15,23 @@
         "mainFile": "index.ts",
         "rootDir": "ui-dev/component/button"
     },
+    "component/text": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui-dev/component/text"
+    },
     "type/common": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
         "rootDir": "ui-dev/type/common"
+    },
+    "utils/style": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui-dev/utils/style"
     },
     "$schema-version": "14.9.0"
 }

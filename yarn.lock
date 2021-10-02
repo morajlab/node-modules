@@ -291,9 +291,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"asap@npm:~2.0.3":
+  version: 2.0.6
+  resolution: "asap@npm:2.0.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fasap%2F-%2Fasap-2.0.6.tgz"
+  checksum: b296c92c4b969e973260e47523207cd5769abd27c245a68c26dc7a0fe8053c55bb04360237cb51cab1df52be939da77150ace99ad331fb7fb13b3423ed73ff3d
+  languageName: node
+  linkType: hard
+
+"bowser@npm:^1.7.3":
+  version: 1.9.4
+  resolution: "bowser@npm:1.9.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fbowser%2F-%2Fbowser-1.9.4.tgz"
+  checksum: 127584ee1b8f0c27f410f652d409ea8bcb23d185a4269bcbe0229069720be9d83dc80a939e0fa33d8a9055141a0cf2fee5a02b2b5515c38841ddc899d67dec8d
+  languageName: node
+  linkType: hard
+
 "button-c6a5c3@workspace:ui-dev/component/button":
   version: 0.0.0-use.local
   resolution: "button-c6a5c3@workspace:ui-dev/component/button"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
   linkType: soft
 
@@ -350,6 +367,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"common-9ea40a@workspace:ui-dev/type/common":
+  version: 0.0.0-use.local
+  resolution: "common-9ea40a@workspace:ui-dev/type/common"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "core-js-pure@npm:^3.16.0":
   version: 3.18.1
   resolution: "core-js-pure@npm:3.18.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcore-js-pure%2F-%2Fcore-js-pure-3.18.1.tgz"
@@ -357,10 +383,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"core-js@npm:^1.0.0":
+  version: 1.2.7
+  resolution: "core-js@npm:1.2.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcore-js%2F-%2Fcore-js-1.2.7.tgz"
+  checksum: 0b76371bfa98708351cde580f9287e2360d2209920e738ae950ae74ad08639a2e063541020bf666c28778956fc356ed9fe56d962129c88a87a6a4a0612526c75
+  languageName: node
+  linkType: hard
+
 "core-js@npm:^3.0.0":
   version: 3.18.1
   resolution: "core-js@npm:3.18.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcore-js%2F-%2Fcore-js-3.18.1.tgz"
   checksum: 89cac0fe657df722d10b0e658ee76af12a614c0a75fe3fb11e87c2e3f27f6d7e609e3bf40748da5d8feb055b0535766a583ff1d1ac89dba57105f6f1ad64dc21
+  languageName: node
+  linkType: hard
+
+"css-in-js-utils@npm:^2.0.0":
+  version: 2.0.1
+  resolution: "css-in-js-utils@npm:2.0.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcss-in-js-utils%2F-%2Fcss-in-js-utils-2.0.1.tgz"
+  dependencies:
+    hyphenate-style-name: ^1.0.2
+    isobject: ^3.0.1
+  checksum: c9964c4708216954c468b69bbee2d971fd759ada4f40637b8ca4d3f79caba4818d0532a4f190ac560227c08742ad063ffec7a30afddc4d96b66a18c3a008f0d8
   languageName: node
   linkType: hard
 
@@ -392,10 +435,47 @@ __metadata:
   languageName: node
   linkType: hard
 
+"encoding@npm:^0.1.11":
+  version: 0.1.13
+  resolution: "encoding@npm:0.1.13::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fencoding%2F-%2Fencoding-0.1.13.tgz"
+  dependencies:
+    iconv-lite: ^0.6.2
+  checksum: bb98632f8ffa823996e508ce6a58ffcf5856330fde839ae42c9e1f436cc3b5cc651d4aeae72222916545428e54fd0f6aa8862fd8d25bdbcc4589f1e3f3715e7f
+  languageName: node
+  linkType: hard
+
 "escape-string-regexp@npm:^1.0.5":
   version: 1.0.5
   resolution: "escape-string-regexp@npm:1.0.5::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fescape-string-regexp%2F-%2Fescape-string-regexp-1.0.5.tgz"
   checksum: 6092fda75c63b110c706b6a9bfde8a612ad595b628f0bd2147eea1d3406723020810e591effc7db1da91d80a71a737a313567c5abb3813e8d9c71f4aa595b410
+  languageName: node
+  linkType: hard
+
+"fbjs@npm:^0.8.12":
+  version: 0.8.17
+  resolution: "fbjs@npm:0.8.17::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ffbjs%2F-%2Ffbjs-0.8.17.tgz"
+  dependencies:
+    core-js: ^1.0.0
+    isomorphic-fetch: ^2.1.1
+    loose-envify: ^1.0.0
+    object-assign: ^4.1.0
+    promise: ^7.1.1
+    setimmediate: ^1.0.5
+    ua-parser-js: ^0.7.18
+  checksum: e969aeb175ccf97d8818aab9907a78f253568e0cc1b8762621c5d235bf031419d7e700f16f7711e89dfd1e0fce2b87a05f8a2800f18df0a96258f0780615fd8b
+  languageName: node
+  linkType: hard
+
+"glamor@npm:2.20.40":
+  version: 2.20.40
+  resolution: "glamor@npm:2.20.40::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fglamor%2F-%2Fglamor-2.20.40.tgz"
+  dependencies:
+    fbjs: ^0.8.12
+    inline-style-prefixer: ^3.0.6
+    object-assign: ^4.1.1
+    prop-types: ^15.5.10
+    through: ^2.3.8
+  checksum: c52f74317053ace8808b9adb156ac756ce03f4d885d3480ff268a56bdc5a0007a5d226edde826b830dc99eb65b509281f187a7ac827009f81225d1ab89f6653d
   languageName: node
   linkType: hard
 
@@ -410,6 +490,56 @@ __metadata:
   version: 4.0.0
   resolution: "has-flag@npm:4.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fhas-flag%2F-%2Fhas-flag-4.0.0.tgz"
   checksum: 261a1357037ead75e338156b1f9452c016a37dcd3283a972a30d9e4a87441ba372c8b81f818cd0fbcd9c0354b4ae7e18b9e1afa1971164aef6d18c2b6095a8ad
+  languageName: node
+  linkType: hard
+
+"hyphenate-style-name@npm:^1.0.2":
+  version: 1.0.4
+  resolution: "hyphenate-style-name@npm:1.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fhyphenate-style-name%2F-%2Fhyphenate-style-name-1.0.4.tgz"
+  checksum: 4f5bf4b055089754924babebaa23c17845937bcca6aee95d5d015f8fa1e6814279002bd6a9e541e3fac2cd02519fc76305396727066c57c8e21a7e73e7a12137
+  languageName: node
+  linkType: hard
+
+"iconv-lite@npm:^0.6.2":
+  version: 0.6.3
+  resolution: "iconv-lite@npm:0.6.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ficonv-lite%2F-%2Ficonv-lite-0.6.3.tgz"
+  dependencies:
+    safer-buffer: ">= 2.1.2 < 3.0.0"
+  checksum: 3f60d47a5c8fc3313317edfd29a00a692cc87a19cac0159e2ce711d0ebc9019064108323b5e493625e25594f11c6236647d8e256fbe7a58f4a3b33b89e6d30bf
+  languageName: node
+  linkType: hard
+
+"inline-style-prefixer@npm:^3.0.6":
+  version: 3.0.8
+  resolution: "inline-style-prefixer@npm:3.0.8::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Finline-style-prefixer%2F-%2Finline-style-prefixer-3.0.8.tgz"
+  dependencies:
+    bowser: ^1.7.3
+    css-in-js-utils: ^2.0.0
+  checksum: a33b7c820fbe6a4c159c7ec64965174f287bd50d8b33b7b4988a7432c0ea0f9012608c44c2bab8d29e1c082027db39796a1638a21de34a9bbd761ad415630083
+  languageName: node
+  linkType: hard
+
+"is-stream@npm:^1.0.1":
+  version: 1.1.0
+  resolution: "is-stream@npm:1.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fis-stream%2F-%2Fis-stream-1.1.0.tgz"
+  checksum: 063c6bec9d5647aa6d42108d4c59723d2bd4ae42135a2d4db6eadbd49b7ea05b750fd69d279e5c7c45cf9da753ad2c00d8978be354d65aa9f6bb434969c6a2ae
+  languageName: node
+  linkType: hard
+
+"isobject@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "isobject@npm:3.0.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fisobject%2F-%2Fisobject-3.0.1.tgz"
+  checksum: db85c4c970ce30693676487cca0e61da2ca34e8d4967c2e1309143ff910c207133a969f9e4ddb2dc6aba670aabce4e0e307146c310350b298e74a31f7d464703
+  languageName: node
+  linkType: hard
+
+"isomorphic-fetch@npm:^2.1.1":
+  version: 2.2.1
+  resolution: "isomorphic-fetch@npm:2.2.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fisomorphic-fetch%2F-%2Fisomorphic-fetch-2.2.1.tgz"
+  dependencies:
+    node-fetch: ^1.0.1
+    whatwg-fetch: ">=0.10.0"
+  checksum: bb5daa7c3785d6742f4379a81e55b549a469503f7c9bf9411b48592e86632cf5e8fe8ea878dba185c0f33eb7c510c23abdeb55aebfdf5d3c70f031ced68c5424
   languageName: node
   linkType: hard
 
@@ -458,7 +588,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"loose-envify@npm:^1.1.0":
+"loose-envify@npm:^1.0.0, loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Floose-envify%2F-%2Floose-envify-1.4.0.tgz"
   dependencies:
@@ -478,7 +608,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"object-assign@npm:^4.1.1":
+"node-fetch@npm:^1.0.1":
+  version: 1.7.3
+  resolution: "node-fetch@npm:1.7.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fnode-fetch%2F-%2Fnode-fetch-1.7.3.tgz"
+  dependencies:
+    encoding: ^0.1.11
+    is-stream: ^1.0.1
+  checksum: 3bb0528c05d541316ebe52770d71ee25a6dce334df4231fd55df41a644143e07f068637488c18a5b0c43f05041dbd3346752f9e19b50df50569a802484544d5b
+  languageName: node
+  linkType: hard
+
+"object-assign@npm:^4.1.0, object-assign@npm:^4.1.1":
   version: 4.1.1
   resolution: "object-assign@npm:4.1.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fobject-assign%2F-%2Fobject-assign-4.1.1.tgz"
   checksum: fcc6e4ea8c7fe48abfbb552578b1c53e0d194086e2e6bbbf59e0a536381a292f39943c6e9628af05b5528aa5e3318bb30d6b2e53cadaf5b8fe9e12c4b69af23f
@@ -509,7 +649,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^16.8.0 || ^17.0.0":
+"promise@npm:^7.1.1":
+  version: 7.3.1
+  resolution: "promise@npm:7.3.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fpromise%2F-%2Fpromise-7.3.1.tgz"
+  dependencies:
+    asap: ~2.0.3
+  checksum: 475bb069130179fbd27ed2ab45f26d8862376a137a57314cf53310bdd85cc986a826fd585829be97ebc0aaf10e9d8e68be1bfe5a4a0364144b1f9eedfa940cf1
+  languageName: node
+  linkType: hard
+
+"prop-types@npm:^15.5.10":
+  version: 15.7.2
+  resolution: "prop-types@npm:15.7.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fprop-types%2F-%2Fprop-types-15.7.2.tgz"
+  dependencies:
+    loose-envify: ^1.4.0
+    object-assign: ^4.1.1
+    react-is: ^16.8.1
+  checksum: 5eef82fdda64252c7e75aa5c8cc28a24bbdece0f540adb60ce67c205cf978a5bd56b83e4f269f91c6e4dcfd80b36f2a2dec24d362e278913db2086ca9c6f9430
+  languageName: node
+  linkType: hard
+
+"react-dom@npm:17.0.2":
   version: 17.0.2
   resolution: "react-dom@npm:17.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact-dom%2F-%2Freact-dom-17.0.2.tgz"
   dependencies:
@@ -522,6 +682,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-is@npm:^16.8.1":
+  version: 16.13.1
+  resolution: "react-is@npm:16.13.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact-is%2F-%2Freact-is-16.13.1.tgz"
+  checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
+  languageName: node
+  linkType: hard
+
 "react-is@npm:^17.0.1":
   version: 17.0.2
   resolution: "react-is@npm:17.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact-is%2F-%2Freact-is-17.0.2.tgz"
@@ -529,7 +696,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^16.8.0 || ^17.0.0":
+"react@npm:17.0.2":
   version: 17.0.2
   resolution: "react@npm:17.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact%2F-%2Freact-17.0.2.tgz"
   dependencies:
@@ -558,13 +725,21 @@ __metadata:
     "@types/react-dom": ^17.0.5
     "@types/testing-library__jest-dom": 5.9.5
     core-js: ^3.0.0
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
+    glamor: 2.20.40
+    react: 17.0.2
+    react-dom: 17.0.2
   peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
+    react: 17.0.2
+    react-dom: 17.0.2
   languageName: unknown
   linkType: soft
+
+"safer-buffer@npm:>= 2.1.2 < 3.0.0":
+  version: 2.1.2
+  resolution: "safer-buffer@npm:2.1.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fsafer-buffer%2F-%2Fsafer-buffer-2.1.2.tgz"
+  checksum: cab8f25ae6f1434abee8d80023d7e72b598cf1327164ddab31003c51215526801e40b66c5e65d658a0af1e9d6478cadcb4c745f4bd6751f97d8644786c0978b0
+  languageName: node
+  linkType: hard
 
 "scheduler@npm:^0.20.2":
   version: 0.20.2
@@ -575,6 +750,22 @@ __metadata:
   checksum: c4b35cf967c8f0d3e65753252d0f260271f81a81e427241295c5a7b783abf4ea9e905f22f815ab66676f5313be0a25f47be582254db8f9241b259213e999b8fc
   languageName: node
   linkType: hard
+
+"setimmediate@npm:^1.0.5":
+  version: 1.0.5
+  resolution: "setimmediate@npm:1.0.5::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fsetimmediate%2F-%2Fsetimmediate-1.0.5.tgz"
+  checksum: c9a6f2c5b51a2dabdc0247db9c46460152ffc62ee139f3157440bd48e7c59425093f42719ac1d7931f054f153e2d26cf37dfeb8da17a794a58198a2705e527fd
+  languageName: node
+  linkType: hard
+
+"style-066315@workspace:ui-dev/utils/style":
+  version: 0.0.0-use.local
+  resolution: "style-066315@workspace:ui-dev/utils/style"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "supports-color@npm:^5.3.0":
   version: 5.5.0
@@ -591,5 +782,35 @@ __metadata:
   dependencies:
     has-flag: ^4.0.0
   checksum: 3dda818de06ebbe5b9653e07842d9479f3555ebc77e9a0280caf5a14fb877ffee9ed57007c3b78f5a6324b8dbeec648d9e97a24e2ed9fdb81ddc69ea07100f4a
+  languageName: node
+  linkType: hard
+
+"text-a20e71@workspace:ui-dev/component/text":
+  version: 0.0.0-use.local
+  resolution: "text-a20e71@workspace:ui-dev/component/text"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"through@npm:^2.3.8":
+  version: 2.3.8
+  resolution: "through@npm:2.3.8::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fthrough%2F-%2Fthrough-2.3.8.tgz"
+  checksum: a38c3e059853c494af95d50c072b83f8b676a9ba2818dcc5b108ef252230735c54e0185437618596c790bbba8fcdaef5b290405981ffa09dce67b1f1bf190cbd
+  languageName: node
+  linkType: hard
+
+"ua-parser-js@npm:^0.7.18":
+  version: 0.7.28
+  resolution: "ua-parser-js@npm:0.7.28::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fua-parser-js%2F-%2Fua-parser-js-0.7.28.tgz"
+  checksum: a7da4ad54527211e878ee016c2ef64efad5c2f5a31277d36c9da93b4c89ecaa64f391ad4cf158ada76a9ad8e53004a950705ff1c2f27a52ca8bfb3f1381c39ff
+  languageName: node
+  linkType: hard
+
+"whatwg-fetch@npm:>=0.10.0":
+  version: 3.6.2
+  resolution: "whatwg-fetch@npm:3.6.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fwhatwg-fetch%2F-%2Fwhatwg-fetch-3.6.2.tgz"
+  checksum: ee976b7249e7791edb0d0a62cd806b29006ad7ec3a3d89145921ad8c00a3a67e4be8f3fb3ec6bc7b58498724fd568d11aeeeea1f7827e7e1e5eae6c8a275afed
   languageName: node
   linkType: hard
