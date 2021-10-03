@@ -9,12 +9,6 @@
  */
 
 {
-    "component/basic/checkbox": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "ui-dev/component/basic/checkbox"
-    },
     "component/basic/bare": {
         "scope": "",
         "version": "",
@@ -26,6 +20,12 @@
         "version": "",
         "mainFile": "index.ts",
         "rootDir": "ui-dev/component/basic/button"
+    },
+    "component/basic/checkbox": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui-dev/component/basic/checkbox"
     },
     "component/basic/image": {
         "scope": "",
@@ -39,6 +39,12 @@
         "mainFile": "index.ts",
         "rootDir": "ui-dev/component/basic/link"
     },
+    "component/basic/position": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui-dev/component/basic/position"
+    },
     "component/basic/radio": {
         "scope": "",
         "version": "",
@@ -50,6 +56,18 @@
         "version": "",
         "mainFile": "index.ts",
         "rootDir": "ui-dev/component/basic/text"
+    },
+    "component/compound/link": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui-dev/component/compound/link"
+    },
+    "component/compound/tooltip": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui-dev/component/compound/tooltip"
     },
     "type/common": {
         "scope": "",
