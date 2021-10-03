@@ -1,4 +1,4 @@
-import { style } from "@ui-dev/utils.style";
+import { style } from "@morajlab/ui-dev.utils.style";
 import type { ITextStyleProps } from "./text.types";
 
 export const Styles = ({ fontFamily, selectable }: ITextStyleProps) => {

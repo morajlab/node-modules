@@ -9,35 +9,47 @@
  */
 
 {
-    "component/bare": {
+    "component/basic/checkbox": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "ui-dev/component/bare"
+        "rootDir": "ui-dev/component/basic/checkbox"
     },
-    "component/button": {
+    "component/basic/bare": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "ui-dev/component/button"
+        "rootDir": "ui-dev/component/basic/bare"
     },
-    "component/image": {
+    "component/basic/button": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "ui-dev/component/image"
+        "rootDir": "ui-dev/component/basic/button"
     },
-    "component/link": {
+    "component/basic/image": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "ui-dev/component/link"
+        "rootDir": "ui-dev/component/basic/image"
     },
-    "component/text": {
+    "component/basic/link": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "ui-dev/component/text"
+        "rootDir": "ui-dev/component/basic/link"
+    },
+    "component/basic/radio": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui-dev/component/basic/radio"
+    },
+    "component/basic/text": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui-dev/component/basic/text"
     },
     "type/common": {
         "scope": "",

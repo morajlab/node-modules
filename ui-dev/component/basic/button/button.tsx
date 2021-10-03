@@ -1,6 +1,6 @@
 import React, { createElement } from "react";
-import { Text } from "@ui-dev/component.text";
-import { Bare } from "@ui-dev/component.bare";
+import { Text } from "@morajlab/ui-dev.component.basic.text";
+import { Bare } from "@morajlab/ui-dev.component.basic.bare";
 import { Styles } from "./button.styles";
 import type { ButtonComponent } from "./button.types";
 

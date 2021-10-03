@@ -1,10 +1,10 @@
 {
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   "teambit.workspace/workspace": {
-    "name": "morajlab",
-    "icon": "https://static.bit.dev/bit-logo.svg",
+    "name": "Moraj Lab",
+    "icon": "https://avatars.githubusercontent.com/u/79711597?s=200&v=4",
     "defaultDirectory": "{scope}/{name}",
-    "defaultScope": "ui-dev"
+    "defaultScope": "morajlab.ui-dev"
   },
   "teambit.dependencies/dependency-resolver": {
     "packageManager": "teambit.dependencies/yarn",
@@ -19,9 +19,7 @@
       }
     },
     "packageManagerArgs": [],
-    "devFilePatterns": [
-      "**/*.spec.ts"
-    ],
+    "devFilePatterns": ["**/*.spec.ts"],
     "strictPeerDependencies": true,
     "installFromBitDevRegistry": true,
     "savePrefix": ""

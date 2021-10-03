@@ -1,5 +1,5 @@
 import { createElement } from "react";
-import { Bare } from "@ui-dev/component.bare";
+import { Bare } from "@morajlab/ui-dev.component.basic.bare";
 import { Styles } from "./text.styles";
 import type { TextComponent } from "./text.types";
 

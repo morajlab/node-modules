@@ -1,4 +1,4 @@
-import { style } from "@ui-dev/utils.style";
+import { style } from "@morajlab/ui-dev.utils.style";
 import type { IButtonStyleProps } from "./button.types";
 
 export const Styles = (_props?: IButtonStyleProps) => {

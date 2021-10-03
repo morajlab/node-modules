@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
-import type { IBareProps } from "@ui-dev/component.bare";
-import type { MLComponent } from "@ui-dev/type.common";
+import type { IBareProps } from "@morajlab/ui-dev.component.basic.bare";
+import type { MLComponent } from "@morajlab/ui-dev.type.common";
 
 export interface IImageStyleProps {
   src: string;

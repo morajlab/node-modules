@@ -1,4 +1,4 @@
-import { style } from "@ui-dev/utils.style";
+import { style } from "@morajlab/ui-dev.utils.style";
 import type { ILinkStyleProps } from "./link.types";
 
 export const Styles = (_props?: ILinkStyleProps) => {

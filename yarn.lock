@@ -298,6 +298,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bare-51cbf0@workspace:ui-dev/component/basic/bare":
+  version: 0.0.0-use.local
+  resolution: "bare-51cbf0@workspace:ui-dev/component/basic/bare"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "bowser@npm:^1.7.3":
   version: 1.9.4
   resolution: "bowser@npm:1.9.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fbowser%2F-%2Fbowser-1.9.4.tgz"
@@ -305,9 +314,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"button-c6a5c3@workspace:ui-dev/component/button":
+"button-493013@workspace:ui-dev/component/basic/button":
   version: 0.0.0-use.local
-  resolution: "button-c6a5c3@workspace:ui-dev/component/button"
+  resolution: "button-493013@workspace:ui-dev/component/basic/button"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
@@ -334,6 +343,15 @@ __metadata:
   checksum: fe75c9d5c76a7a98d45495b91b2172fa3b7a09e0cc9370e5c8feb1c567b85c4288e2b3fded7cfdd7359ac28d6b3844feb8b82b8686842e93d23c827c417e83fc
   languageName: node
   linkType: hard
+
+"checkbox-c0a258@workspace:ui-dev/component/basic/checkbox":
+  version: 0.0.0-use.local
+  resolution: "checkbox-c0a258@workspace:ui-dev/component/basic/checkbox"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "color-convert@npm:^1.9.0":
   version: 1.9.3
@@ -509,6 +527,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"image-28fe66@workspace:ui-dev/component/basic/image":
+  version: 0.0.0-use.local
+  resolution: "image-28fe66@workspace:ui-dev/component/basic/image"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "inline-style-prefixer@npm:^3.0.6":
   version: 3.0.8
   resolution: "inline-style-prefixer@npm:3.0.8::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Finline-style-prefixer%2F-%2Finline-style-prefixer-3.0.8.tgz"
@@ -587,6 +614,15 @@ __metadata:
   checksum: 8a95213a5a77deb6cbe94d86340e8d9ace2b93bc367790b260101d2f36a2eaf4e4e22d9fa9cf459b38af3a32fb4190e638024cf82ec95ef708680e405ea7cc78
   languageName: node
   linkType: hard
+
+"link-60619f@workspace:ui-dev/component/basic/link":
+  version: 0.0.0-use.local
+  resolution: "link-60619f@workspace:ui-dev/component/basic/link"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "loose-envify@npm:^1.0.0, loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
   version: 1.4.0
@@ -668,6 +704,15 @@ __metadata:
   checksum: 5eef82fdda64252c7e75aa5c8cc28a24bbdece0f540adb60ce67c205cf978a5bd56b83e4f269f91c6e4dcfd80b36f2a2dec24d362e278913db2086ca9c6f9430
   languageName: node
   linkType: hard
+
+"radio-dabddd@workspace:ui-dev/component/basic/radio":
+  version: 0.0.0-use.local
+  resolution: "radio-dabddd@workspace:ui-dev/component/basic/radio"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "react-dom@npm:17.0.2":
   version: 17.0.2
@@ -785,9 +830,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"text-a20e71@workspace:ui-dev/component/text":
+"text-acc585@workspace:ui-dev/component/basic/text":
   version: 0.0.0-use.local
-  resolution: "text-a20e71@workspace:ui-dev/component/text"
+  resolution: "text-acc585@workspace:ui-dev/component/basic/text"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
