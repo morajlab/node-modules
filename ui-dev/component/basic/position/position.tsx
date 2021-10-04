@@ -1,16 +1,13 @@
-import React from 'react';
+import React from "react";
+import { Bare } from "@morajlab/ui-dev.component.basic.bare";
+import { Styles } from "./position.styles";
+import type { PositionComponent } from "./position.types";
 
-export type PositionProps = {
-  /**
-   * a text to be rendered in the component.
-   */
-  text: string
+export const Position: PositionComponent = ({ type, pos, ...rest }) => {
+  const { root } = Styles({
+    type,
+    pos,
+  });
+
+  return <Bare {...root} {...rest} />;
 };
-
-export function Position({ text }: PositionProps) {
-  return (
-    <div>
-      {text}
-    </div>
-  );
-}
