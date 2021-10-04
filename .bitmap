@@ -76,8 +76,8 @@
         "rootDir": "ui-dev/type/common"
     },
     "utils/style": {
-        "scope": "",
-        "version": "",
+        "scope": "morajlab.ui-dev",
+        "version": "0.1.0",
         "mainFile": "index.ts",
         "rootDir": "ui-dev/utils/style"
     },
