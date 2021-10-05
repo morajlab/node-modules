@@ -116,6 +116,7 @@ dist
 .vscode-test
 
 # yarn v2
+yarn.lock
 .yarn/cache
 .yarn/unplugged
 .yarn/build-state.yml
@@ -144,5 +145,6 @@ dist
 
 # Bit.dev
 .bit
+public
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,node

@@ -9,77 +9,77 @@
  */
 
 {
-    "component/basic/bare": {
+    "react/component/basic/bare": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "ui-dev/component/basic/bare"
+        "rootDir": "ui-dev/react/component/basic/bare"
     },
-    "component/basic/button": {
+    "react/component/basic/button": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "ui-dev/component/basic/button"
+        "rootDir": "ui-dev/react/component/basic/button"
     },
-    "component/basic/checkbox": {
+    "react/component/basic/checkbox": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "ui-dev/component/basic/checkbox"
+        "rootDir": "ui-dev/react/component/basic/checkbox"
     },
-    "component/basic/image": {
+    "react/component/basic/image": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "ui-dev/component/basic/image"
+        "rootDir": "ui-dev/react/component/basic/image"
     },
-    "component/basic/link": {
+    "react/component/basic/link": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "ui-dev/component/basic/link"
+        "rootDir": "ui-dev/react/component/basic/link"
     },
-    "component/basic/position": {
+    "react/component/basic/position": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "ui-dev/component/basic/position"
+        "rootDir": "ui-dev/react/component/basic/position"
     },
-    "component/basic/radio": {
+    "react/component/basic/radio": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "ui-dev/component/basic/radio"
+        "rootDir": "ui-dev/react/component/basic/radio"
     },
-    "component/basic/text": {
+    "react/component/basic/text": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "ui-dev/component/basic/text"
+        "rootDir": "ui-dev/react/component/basic/text"
     },
-    "component/compound/link": {
+    "react/component/compound/link": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "ui-dev/component/compound/link"
+        "rootDir": "ui-dev/react/component/compound/link"
     },
-    "component/compound/tooltip": {
+    "react/component/compound/tooltip": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "ui-dev/component/compound/tooltip"
+        "rootDir": "ui-dev/react/component/compound/tooltip"
     },
-    "type/common": {
+    "react/type/common": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "ui-dev/type/common"
+        "rootDir": "ui-dev/react/type/common"
     },
-    "utils/style": {
+    "react/utils/style": {
         "scope": "morajlab.ui-dev",
         "version": "0.1.0",
         "mainFile": "index.ts",
-        "rootDir": "ui-dev/utils/style"
+        "rootDir": "ui-dev/react/utils/style"
     },
     "$schema-version": "14.9.0"
 }
