@@ -70,14 +70,14 @@
         "rootDir": "ui-dev/react/component/compound/tooltip"
     },
     "react/type/common": {
-        "scope": "",
-        "version": "",
+        "scope": "morajlab.ui-dev",
+        "version": "0.0.1-0",
         "mainFile": "index.ts",
         "rootDir": "ui-dev/react/type/common"
     },
     "react/utils/style": {
         "scope": "morajlab.ui-dev",
-        "version": "0.1.1",
+        "version": "0.0.1-0",
         "mainFile": "index.ts",
         "rootDir": "ui-dev/react/utils/style"
     },
