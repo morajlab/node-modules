@@ -1,5 +1,10 @@
 import * as glamor from "glamor";
-import type { IStyleFunction } from "./style.types";
+
+export interface IStyleFunctionProps {}
+
+export interface IStyleFunction {
+  (props?: IStyleFunctionProps): glamor.StyleAttribute;
+}
 
 export const style: IStyleFunction = glamor.css;
 
