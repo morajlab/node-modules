@@ -77,7 +77,7 @@
     },
     "react/utils/style": {
         "scope": "morajlab.ui-dev",
-        "version": "0.1.0",
+        "version": "0.1.1",
         "mainFile": "index.ts",
         "rootDir": "ui-dev/react/utils/style"
     },

@@ -1,8 +1,7 @@
-export * from "glamor";
-import { css } from "glamor";
+import * as glamor from "glamor";
 import type { IStyleFunction } from "./style.types";
 
-export const style: IStyleFunction = (props) => css(props);
+export const style: IStyleFunction = glamor.css;
 
 export const getRenderedComponentStyles = (component: JSX.Element) => {
   for (const [key, _value] of Object.entries(component.props)) {
@@ -13,3 +12,5 @@ export const getRenderedComponentStyles = (component: JSX.Element) => {
     }
   }
 };
+
+export { glamor };
