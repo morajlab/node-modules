@@ -1,4 +1,4 @@
-import { style } from "@morajlab/ui-dev.react.utils.style";
+import { style } from "@morajlab/ui-dev.react.util.style";
 import type { IPositionStyleProps } from "./position.types";
 
 export const Styles = ({ type, pos }: IPositionStyleProps) => {

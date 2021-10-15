@@ -1,4 +1,4 @@
-import { style } from "@morajlab/ui-dev.react.utils.style";
+import { style } from "@morajlab/ui-dev.react.util.style";
 import type { IImageStyleProps } from "./image.types";
 
 export const Styles = ({ src, bare, width, height }: IImageStyleProps) => {
