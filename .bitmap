@@ -69,6 +69,30 @@
         "mainFile": "index.ts",
         "rootDir": "ui-dev/react/component/compound/tooltip"
     },
+    "react/style/no-drag": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui-dev/react/style/no-drag"
+    },
+    "react/style/no-select": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui-dev/react/style/no-select"
+    },
+    "react/style/rectangle": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui-dev/react/style/rectangle"
+    },
+    "react/style/solid": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui-dev/react/style/solid"
+    },
     "react/type/common": {
         "scope": "morajlab.ui-dev",
         "version": "0.0.1",
