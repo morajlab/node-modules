@@ -10,8 +10,8 @@
 
 {
     "react/component/basic/bare": {
-        "scope": "",
-        "version": "",
+        "scope": "morajlab.ui-dev",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "ui-dev/react/component/basic/bare"
     },
