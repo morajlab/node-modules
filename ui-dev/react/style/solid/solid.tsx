@@ -1,16 +1,4 @@
-import React from 'react';
+import { NoSelect } from "@morajlab/ui-dev.react.style.no-select";
+import { NoDrag } from "@morajlab/ui-dev.react.style.no-drag";
 
-export type SolidProps = {
-  /**
-   * a text to be rendered in the component.
-   */
-  text: string
-};
-
-export function Solid({ text }: SolidProps) {
-  return (
-    <div>
-      {text}
-    </div>
-  );
-}
+export const Solid = () => ({ ...NoDrag(), ...NoSelect() });

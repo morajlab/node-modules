@@ -3,10 +3,11 @@ import type { MLComponent } from "@morajlab/ui-dev.react.type.common";
 
 export interface ITextStyleProps {
   fontFamily?: string;
-  selectable?: boolean;
   as?: string;
 }
 
-export interface ITextProps extends ITextStyleProps, IBareProps {}
+export interface ITextProps extends ITextStyleProps, IBareProps {
+  selectable?: boolean;
+}
 
 export type TextComponent = MLComponent<ITextProps>;

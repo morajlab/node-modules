@@ -1,6 +1,6 @@
-import React from 'react';
-import { Solid } from './solid';
+import React from "react";
+import { Solid } from "./solid";
 
 export const BasicSolid = () => (
-  <Solid text="hello from Solid" />
+  <img src="https://picsum.photos/500" alt="image solid style" {...Solid()} />
 );

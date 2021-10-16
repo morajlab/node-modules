@@ -4,9 +4,6 @@ import type { IImageStyleProps } from "./image.types";
 export const Styles = ({ src, bare, width, height }: IImageStyleProps) => {
   return {
     root: style({
-      userDrag: "none",
-      WebkitUserDrag: "none",
-      userSelect: "none",
       ...(bare
         ? {
             width: `${width}px`,

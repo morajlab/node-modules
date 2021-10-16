@@ -1,16 +1,6 @@
-import React from 'react';
+import { style } from "@morajlab/ui-dev.react.util.style";
 
-export type NoSelectProps = {
-  /**
-   * a text to be rendered in the component.
-   */
-  text: string
-};
-
-export function NoSelect({ text }: NoSelectProps) {
-  return (
-    <div>
-      {text}
-    </div>
-  );
-}
+export const NoSelect = () =>
+  style({
+    userSelect: "none",
+  });

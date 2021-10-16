@@ -1,6 +1,8 @@
-import React from 'react';
-import { Rectangle } from './rectangle';
+import React, { CSSProperties } from "react";
+import { Rectangle } from "./rectangle";
 
-export const BasicRectangle = () => (
-  <Rectangle text="hello from Rectangle" />
-);
+const styles: CSSProperties = {
+  backgroundColor: "red",
+};
+
+export const CoverRectangle = () => <div style={styles} {...Rectangle()} />;
