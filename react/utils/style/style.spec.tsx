@@ -1,16 +1,18 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import { style, getRenderedComponentStyles } from "./style";
+import { createStyles } from "./style";
 
 describe("Style utility tests", () => {
   it("Should render with the correct style", () => {
     const styles = {
-      backgroundColor: "rgb(0, 233, 15)",
-      color: "rgb(255, 255, 255)",
-      fontSize: "12px",
+      root: {
+        backgroundColor: "rgb(0, 233, 15)",
+        color: "rgb(255, 255, 255)",
+        fontSize: "12px",
+      },
     };
-
-    const StyledComponent = () => <div {...style(styles)} />;
+    const { root } = createStyles(styles)();
+    const StyledComponent = () => <div className={root} />;
 
     render(<StyledComponent />);
 

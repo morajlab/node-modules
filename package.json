@@ -1,0 +1,16 @@
+{
+  "name": "@morajlab/node-modules",
+  "version": "0.0.1",
+  "private": true,
+  "repository": "https://github.com/morajlab/node-modules.git",
+  "author": "Morteza Jamali <mortezajamali4241@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "reg:set": "npm config set '@morajlab:registry' https://node.bit.dev",
+    "prettier": "npm prettier --write .",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}

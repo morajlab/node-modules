@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://harmony-docs.bit.dev/workspace/configurations
- **/{
+ **/ {
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -39,18 +39,22 @@
     "packageManager": "teambit.dependencies/yarn",
     "policy": {
       "dependencies": {
+        "@commitlint/cli": "14.1.0",
+        "@commitlint/config-conventional": "14.1.0",
         "@testing-library/react": "12.1.2",
-        "react-jss": "10.8.2"
+        "commitlint": "14.1.0",
+        "husky": "7.0.4",
+        "lint-staged": "11.2.6",
+        "prettier": "2.4.1"
       },
       "peerDependencies": {
         "react": "17.0.2",
-        "react-dom": "17.0.2"
+        "react-dom": "17.0.2",
+        "react-jss": "10.8.2"
       }
     },
     "packageManagerArgs": [],
-    "devFilePatterns": [
-      "**/*.spec.ts"
-    ],
+    "devFilePatterns": ["**/*.spec.ts"],
     "strictPeerDependencies": true,
     "installFromBitDevRegistry": true,
     "savePrefix": ""
