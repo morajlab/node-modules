@@ -1,0 +1,56 @@
+---
+displayName: "Position"
+description: "A Position component."
+labels:
+  [
+    "position",
+    "transfer",
+    "size",
+    "absolute",
+    "fixed",
+    "moraj",
+    "morajlab",
+    "react",
+    "basic",
+    "component",
+  ]
+---
+
+import { Position } from "./position";
+
+## React component for positioning components
+
+### Examples
+
+```jsx
+<Position type="fixed" pos="top">
+  Fixed Top Position
+</Position>
+```
+
+equivalents to this style:
+
+```css
+position: fixed;
+inset: 0 0 50% 0;
+```
+
+```jsx
+<Position type="absolute" pos="center">
+  Absolute Center Position
+</Position>
+```
+
+equivalents to this style:
+
+```css
+position: absolute;
+inset: 25% 25% 25% 25%;
+```
+
+### Properties
+
+| Name | Description                   | Type                                                                                                                                                                             | Default | Required |
+| ---- | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | -------- |
+| type | Type of position              | `fixed` `absolute`                                                                                                                                                               |         | yes      |
+| pos  | Where the component should be | `full` `top` `top-middle` `right` <br /> `right-middle` `bottom` `bottom-middle` `left` <br /> `left-middle` `top-right` `bottom-right` `bottom-left` <br /> `top-left` `center` |

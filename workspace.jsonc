@@ -39,7 +39,8 @@
     "packageManager": "teambit.dependencies/yarn",
     "policy": {
       "dependencies": {
-        "@testing-library/react": "12.1.2"
+        "@testing-library/react": "12.1.2",
+        "react-jss": "10.8.2"
       },
       "peerDependencies": {
         "react": "17.0.2",
