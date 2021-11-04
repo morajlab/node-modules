@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "morajlab.ui-dev"
+    "defaultScope": "morajlab.react"
   },
   /**
    * main configuration for component dependency resolution.
@@ -39,8 +39,7 @@
     "packageManager": "teambit.dependencies/yarn",
     "policy": {
       "dependencies": {
-        "@testing-library/react": "12.1.2",
-        "glamor": "2.20.40"
+        "@testing-library/react": "12.1.2"
       },
       "peerDependencies": {
         "react": "17.0.2",
