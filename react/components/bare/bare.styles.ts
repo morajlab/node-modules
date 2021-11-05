@@ -1,10 +1,5 @@
-import { style } from "@morajlab/react.utils.style";
-import type { IBareStyleProps } from "./bare.types";
+import { createStyles } from "@morajlab/react.utils.style";
 
-export const Styles = (_props?: IBareStyleProps) => {
-  return {
-    root: style({}),
-  };
-};
+export const Styles = createStyles({ root: {} });
 
 export default Styles;

@@ -10,8 +10,8 @@
 
 {
     "components/bare": {
-        "scope": "",
-        "version": "",
+        "scope": "morajlab.react",
+        "version": "0.0.11",
         "mainFile": "index.ts",
         "rootDir": "react/components/bare"
     },
@@ -82,8 +82,8 @@
         "rootDir": "react/styles/solid"
     },
     "types/common": {
-        "scope": "",
-        "version": "",
+        "scope": "morajlab.react",
+        "version": "0.0.11",
         "mainFile": "index.ts",
         "rootDir": "react/types/common"
     },

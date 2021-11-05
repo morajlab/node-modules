@@ -5,5 +5,5 @@ import { BareComponent } from "./bare.types";
 export const Bare: BareComponent = ({ ...rest }) => {
   const { root } = Styles();
 
-  return createElement("div", { ...root, ...rest });
+  return createElement("div", { className: root, ...rest });
 };

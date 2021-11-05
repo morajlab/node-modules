@@ -1,2 +1,2 @@
 export * from "./bare";
-export * from "./bare.types";
+export type { BareComponent, IBareProps } from "./bare.types";
