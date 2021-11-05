@@ -9,29 +9,11 @@
  */
 
 {
-    "styles/no-drag": {
+    "components/bare": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "react/styles/no-drag"
-    },
-    "styles/no-select": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "react/styles/no-select"
-    },
-    "styles/rectangle": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "react/styles/rectangle"
-    },
-    "styles/solid": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "react/styles/solid"
+        "rootDir": "react/components/bare"
     },
     "components/button": {
         "scope": "",
@@ -75,11 +57,29 @@
         "mainFile": "index.ts",
         "rootDir": "react/components/text"
     },
-    "components/bare": {
+    "styles/no-drag": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "react/components/bare"
+        "rootDir": "react/styles/no-drag"
+    },
+    "styles/no-select": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "react/styles/no-select"
+    },
+    "styles/rectangle": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "react/styles/rectangle"
+    },
+    "styles/solid": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "react/styles/solid"
     },
     "types/common": {
         "scope": "",
@@ -94,8 +94,8 @@
         "rootDir": "react/utils/schema-validator"
     },
     "utils/style": {
-        "scope": "",
-        "version": "",
+        "scope": "morajlab.react",
+        "version": "0.0.11",
         "mainFile": "index.ts",
         "rootDir": "react/utils/style"
     },

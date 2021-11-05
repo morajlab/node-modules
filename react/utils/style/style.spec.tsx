@@ -1,24 +1,30 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import { createStyles } from "./style";
+import { BasicStyle } from "./style.composition";
 
 describe("Style utility tests", () => {
   it("Should render with the correct style", () => {
     const styles = {
       root: {
-        backgroundColor: "rgb(0, 233, 15)",
+        padding: "60px",
+        backgroundColor: "rgb(0, 53, 0)",
+        display: "block",
         color: "rgb(255, 255, 255)",
-        fontSize: "12px",
+        borderRadius: "50px",
       },
     };
-    const { root } = createStyles(styles)();
-    const StyledComponent = () => <div className={root} />;
+    const text = JSON.stringify(styles);
 
-    render(<StyledComponent />);
+    const { getByText } = render(
+      <BasicStyle styles={styles} children={text} />
+    );
+    const rendered = getByText(text);
 
-    const computedStyles = getRenderedComponentStyles(StyledComponent());
+    expect(rendered).toBeTruthy();
 
-    for (const [key, value] of Object.entries(styles)) {
+    const computedStyles = window.getComputedStyle(rendered.parentElement);
+
+    for (const [key, value] of Object.entries(styles.root)) {
       expect(computedStyles[key]).toBe(value);
     }
   });
