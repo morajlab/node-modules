@@ -45,13 +45,13 @@
         "commitlint": "14.1.0",
         "husky": "7.0.4",
         "lint-staged": "11.2.6",
-        "prettier": "2.4.1"
+        "prettier": "2.4.1",
+        "react-jss": "10.8.2",
+        "ajv": "8.6.3"
       },
       "peerDependencies": {
-        "ajv": "8.6.3",
         "react": "17.0.2",
-        "react-dom": "17.0.2",
-        "react-jss": "10.8.2"
+        "react-dom": "17.0.2"
       }
     },
     "packageManagerArgs": [],

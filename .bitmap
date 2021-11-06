@@ -11,7 +11,7 @@
 {
     "components/bare": {
         "scope": "morajlab.react",
-        "version": "0.0.11",
+        "version": "0.0.111",
         "mainFile": "index.ts",
         "rootDir": "react/components/bare"
     },
@@ -95,7 +95,7 @@
     },
     "utils/style": {
         "scope": "morajlab.react",
-        "version": "0.0.11",
+        "version": "0.0.111",
         "mainFile": "index.ts",
         "rootDir": "react/utils/style"
     },
