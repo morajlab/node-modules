@@ -2,15 +2,33 @@
   "name": "@morajlab/node-modules",
   "version": "0.0.1",
   "private": true,
-  "repository": "https://github.com/morajlab/node-modules.git",
-  "author": "Morteza Jamali <mortezajamali4241@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morajlab/node-modules.git"
+  },
+  "author": "Morteza Jamali <mortezajamali4241@gmail.com> (https://moraj.ir)",
   "license": "MIT",
   "scripts": {
-    "reg:set": "npm config set '@morajlab:registry' https://node.bit.dev",
-    "prettier": "npm prettier --write .",
+    "preinstall": "npm config set '@morajlab:registry' https://node.bit.dev",
+    "format": "prettier --write .",
     "prepare": "husky install"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
-  }
+  },
+  "description": "Moraj Lab node modules",
+  "bugs": {
+    "url": "https://github.com/morajlab/node-modules/issues"
+  },
+  "homepage": "https://github.com/morajlab/node-modules#readme",
+  "keywords": [
+    "moraj",
+    "morajlab",
+    "node",
+    "modules",
+    "bit",
+    "micro",
+    "javascript",
+    "typescript"
+  ]
 }
