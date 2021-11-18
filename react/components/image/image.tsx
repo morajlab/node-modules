@@ -1,5 +1,5 @@
 import React, { createElement } from "react";
-import { Solid } from "@morajlab/react.styles.solid";
+import { common } from "@morajlab/react.styles.common";
 import { Bare } from "@morajlab/react.components.bare";
 import { Styles } from "./image.styles";
 import type { ImageComponent } from "./image.types";
@@ -25,8 +25,7 @@ export const Image: ImageComponent = ({
   const { root } = Styles({ bare, src, width, height });
 
   return createElement(element, {
-    ...root,
-    ...Solid(),
+    className: `${root} ${common().solid}`,
     ...{
       ...rest,
       ...(bare ? {} : nonBareProps),

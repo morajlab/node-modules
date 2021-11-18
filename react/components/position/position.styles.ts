@@ -1,4 +1,4 @@
-import { style } from "@morajlab/react.utils.style";
+import { createStyles } from "@morajlab/react.utils.style";
 import type { IPositionStyleProps } from "./position.types";
 
 export const Styles = ({ type, pos }: IPositionStyleProps) => {
@@ -19,9 +19,9 @@ export const Styles = ({ type, pos }: IPositionStyleProps) => {
     full: { inset: 0 },
   };
 
-  return {
-    root: style({ position: type, ...(positions[pos] ?? {}) }),
-  };
+  return createStyles({
+    root: { position: type, ...(positions[pos] ?? {}) },
+  })();
 };
 
 export default Styles;

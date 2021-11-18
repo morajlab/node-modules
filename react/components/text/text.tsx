@@ -1,7 +1,7 @@
 import { createElement } from "react";
 import { Bare } from "@morajlab/react.components.bare";
-import { NoSelect } from "@morajlab/react.styles.no-select";
 import { Styles } from "./text.styles";
+import { common } from "@morajlab/react.styles.common";
 import type { TextComponent } from "./text.types";
 
 export const Text: TextComponent = ({
@@ -15,8 +15,7 @@ export const Text: TextComponent = ({
   const { root } = Styles({ fontFamily });
 
   return createElement(element, {
-    ...root,
+    className: `${root} ${!selectable ? common().noSelect : ""}`.trim(),
     ...rest,
-    ...(!selectable ? NoSelect() : {}),
   });
 };

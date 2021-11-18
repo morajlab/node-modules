@@ -1,10 +1,7 @@
-import { style } from "@morajlab/react.utils.style";
+import { createStyles } from "@morajlab/react.utils.style";
 import type { ILinkStyleProps } from "./link.types";
 
-export const Styles = (_props?: ILinkStyleProps) => {
-  return {
-    root: style({}),
-  };
-};
+export const Styles = (_props?: ILinkStyleProps) =>
+  createStyles({ root: {} })();
 
 export default Styles;

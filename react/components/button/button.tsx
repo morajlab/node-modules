@@ -12,7 +12,7 @@ export const Button: ButtonComponent = ({ bare, children, ...rest }) => {
 
   return createElement(
     element,
-    { ...root, ...rest },
+    { className: root, ...rest },
     <Text selectable={false}>{children}</Text>
   );
 };

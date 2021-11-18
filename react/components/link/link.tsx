@@ -27,7 +27,7 @@ export const Link: LinkComponent = ({
 
   return createElement(
     element,
-    { onClick: onClickHandler, ...root, ...rest },
+    { onClick: onClickHandler, className: root, ...rest },
     <Text selectable={selectable}>{children}</Text>
   );
 };

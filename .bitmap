@@ -57,29 +57,11 @@
         "mainFile": "index.ts",
         "rootDir": "react/components/text"
     },
-    "styles/no-drag": {
-        "scope": "",
-        "version": "",
+    "styles/common": {
+        "scope": "morajlab.react",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "react/styles/no-drag"
-    },
-    "styles/no-select": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "react/styles/no-select"
-    },
-    "styles/rectangle": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "react/styles/rectangle"
-    },
-    "styles/solid": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "react/styles/solid"
+        "rootDir": "react/styles/common"
     },
     "types/common": {
         "scope": "morajlab.react",

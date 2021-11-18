@@ -9,5 +9,5 @@ export const Position: PositionComponent = ({ type, pos, ...rest }) => {
     pos,
   });
 
-  return <Bare {...root} {...rest} />;
+  return <Bare className={root} {...rest} />;
 };

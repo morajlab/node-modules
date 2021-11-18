@@ -1,9 +1,9 @@
-import { style } from "@morajlab/react.utils.style";
+import { createStyles } from "@morajlab/react.utils.style";
 import type { IImageStyleProps } from "./image.types";
 
 export const Styles = ({ src, bare, width, height }: IImageStyleProps) => {
-  return {
-    root: style({
+  return createStyles({
+    root: {
       ...(bare
         ? {
             width: `${width}px`,
@@ -13,8 +13,8 @@ export const Styles = ({ src, bare, width, height }: IImageStyleProps) => {
             backgroundPosition: "center",
           }
         : {}),
-    }),
-  };
+    },
+  })();
 };
 
 export default Styles;
