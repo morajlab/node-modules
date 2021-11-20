@@ -1,10 +1,18 @@
 ---
-labels: ["module"]
-description: "A general purpose node module"
+description: "Console module"
+labels: ["console", "node", "log", "module", "morajlab"]
 ---
 
 API:
 
 ```ts
-function console(): string;
+import { Console } from "@morajlab/vanilla.utils.console";
+
+Console.error("error message");
+Console.info("info message");
+Console.warn("warning message");
+Console.success("success message");
+
+Console.nl(); // Creates new line
+Console.clear(); // Clear console
 ```

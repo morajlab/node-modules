@@ -70,8 +70,8 @@
         "rootDir": "react/types/common"
     },
     "utils/console": {
-        "scope": "",
-        "version": "",
+        "scope": "morajlab.vanilla",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "vanilla/utils/console"
     },

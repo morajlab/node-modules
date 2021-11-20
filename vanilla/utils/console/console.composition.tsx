@@ -1,6 +1,5 @@
 import React from "react";
-import { console } from "./console";
 
-export function ReturnsCorrectValue() {
-  return <div>{console()}</div>;
-}
+export const Basic = () => {
+  return <p>There is no composition fot this module</p>;
+};
