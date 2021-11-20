@@ -69,11 +69,17 @@
         "mainFile": "index.ts",
         "rootDir": "react/types/common"
     },
+    "utils/console": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "vanilla/utils/console"
+    },
     "utils/schema-validator": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "react/utils/schema-validator"
+        "rootDir": "vanilla/utils/schema-validator"
     },
     "utils/style": {
         "scope": "morajlab.react",
