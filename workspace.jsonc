@@ -39,15 +39,10 @@
     "packageManager": "teambit.dependencies/yarn",
     "policy": {
       "dependencies": {
-        "@commitlint/cli": "14.1.0",
-        "@commitlint/config-conventional": "14.1.0",
         "@testing-library/react": "12.1.2",
-        "commitlint": "14.1.0",
-        "husky": "7.0.4",
-        "lint-staged": "11.2.6",
-        "prettier": "2.4.1",
-        "react-jss": "10.8.2",
-        "ajv": "8.6.3"
+        "ajv": "8.6.3",
+        "chalk": "4.1.2",
+        "react-jss": "10.8.2"
       },
       "peerDependencies": {
         "react": "17.0.2",
@@ -71,11 +66,13 @@
     /**
      * "*" is a special rule which applied on all components in the workspace.
      **/
-    "*": {
-      /**
-       * uncomment to apply the chosen environment on all components.
-       **/
+    "react": {
+      "defaultScope": "morajlab.react",
       "teambit.react/react": {}
+    },
+    "vanilla": {
+      "defaultScope": "morajlab.vanilla",
+      "teambit.harmony/node": {}
     }
   }
 }
