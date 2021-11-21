@@ -57,6 +57,12 @@
         "mainFile": "index.ts",
         "rootDir": "react/components/text"
     },
+    "prettier": {
+        "scope": "morajlab.config",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "config/prettier"
+    },
     "styles/common": {
         "scope": "morajlab.react",
         "version": "0.0.1",
