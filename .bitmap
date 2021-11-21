@@ -71,7 +71,7 @@
     },
     "typescript": {
         "scope": "morajlab.config",
-        "version": "0.0.1",
+        "version": "0.0.101",
         "mainFile": "index.ts",
         "rootDir": "config/typescript"
     },

@@ -1,7 +1,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "rootDir": ".",
+    "rootDir": "../../..",
     "sourceMap": true,
     "declaration": true,
     "moduleResolution": "node",
@@ -14,8 +14,8 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "esModuleInterop": true,
-    "baseUrl": ".",
+    "baseUrl": "../../..",
     "paths": {}
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": ["../../../node_modules", "../../../tmp"]
 }
