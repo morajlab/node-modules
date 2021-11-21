@@ -1,6 +1,6 @@
 ---
 description: "A basic typescript config"
-labels: ["typescript", "config", "morajlab", "moraj", "tsconfig"]
+labels: ["typescript", "config", "morajlab", "moraj", "tsconfig", "ts-node"]
 ---
 
 Usage:
@@ -13,5 +13,13 @@ Usage:
       "module": "commonjs"
     }
   }
+}
+```
+
+for `ts-node` config:
+
+```json
+{
+  "extends": "/path/to/node_modules/@morajlab/config.typescript/ts-node.json"
 }
 ```
