@@ -73,6 +73,10 @@
     "vanilla": {
       "defaultScope": "morajlab.vanilla",
       "teambit.harmony/node": {}
+    },
+    "config": {
+      "defaultScope": "morajlab.config",
+      "teambit.harmony/node": {}
     }
   }
 }

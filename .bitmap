@@ -69,6 +69,12 @@
         "mainFile": "index.ts",
         "rootDir": "react/types/common"
     },
+    "typescript": {
+        "scope": "morajlab.config",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "config/typescript"
+    },
     "utils/console": {
         "scope": "morajlab.vanilla",
         "version": "0.0.1",
