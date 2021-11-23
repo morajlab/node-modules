@@ -87,6 +87,12 @@
         "mainFile": "index.ts",
         "rootDir": "vanilla/utils/console"
     },
+    "utils/morajlab": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "vanilla/utils/morajlab"
+    },
     "utils/schema-validator": {
         "scope": "",
         "version": "",

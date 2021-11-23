@@ -1,0 +1,1 @@
+export { morajlab } from "./morajlab";
