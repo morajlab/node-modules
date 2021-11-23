@@ -10,11 +10,13 @@
   "license": "MIT",
   "scripts": {
     "preinstall": "npm config set '@morajlab:registry' https://node.bit.dev",
-    "format": "prettier --write .",
+    "format:prettier": "prettier --write --ignore-unknown",
+    "format:css": "stylelint",
     "prepare": "husky install"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "**/*": "npm run format:prettier",
+    "**/*.css": "npm run format:css"
   },
   "description": "Moraj Lab node modules",
   "bugs": {
@@ -37,6 +39,8 @@
     "commitlint": "^15.0.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.0.3",
-    "prettier": "^2.4.1"
+    "prettier": "^2.4.1",
+    "stylelint": "^14.1.0",
+    "stylelint-config-standard": "^24.0.0"
   }
 }
