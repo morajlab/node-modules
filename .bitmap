@@ -90,7 +90,7 @@
     "utils/morajlab": {
         "scope": "",
         "version": "",
-        "mainFile": "index.ts",
+        "mainFile": "morajlab.tsx",
         "rootDir": "vanilla/utils/morajlab"
     },
     "utils/schema-validator": {
