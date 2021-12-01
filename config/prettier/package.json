@@ -1,0 +1,29 @@
+{
+  "name": "@morajlab/npm.config.prettier",
+  "version": "0.0.1-alpha",
+  "description": "Moraj Lab default prettier config",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "publishConfig": {
+    "@morajlab:registry": "https://npm.pkg.github.com"
+  },
+  "repository": "https://github.com/morajlab/node-modules",
+  "keywords": [
+    "morajlab",
+    "config",
+    "prettier",
+    "default",
+    "formatter",
+    "nodejs",
+    "javascript",
+    "typescripts"
+  ],
+  "author": {
+    "name": "Morteza Jamali",
+    "email": "mortezajamali4241@gmail.com",
+    "url": "https://moraj.ir"
+  },
+  "license": "MIT"
+}
