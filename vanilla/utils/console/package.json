@@ -1,0 +1,27 @@
+{
+  "name": "@morajlab/npm.vanilla.utils.console",
+  "version": "0.0.1-alpha",
+  "description": "Console utility for node.js apps",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "publishConfig": {
+    "@morajlab:registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [
+    "morajlab",
+    "console",
+    "log",
+    "utilily",
+    "nodejs",
+    "javascript",
+    "typescripts"
+  ],
+  "author": {
+    "name": "Morteza Jamali",
+    "email": "mortezajamali4241@gmail.com",
+    "url": "https://moraj.ir"
+  },
+  "license": "MIT"
+}
