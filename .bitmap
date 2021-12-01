@@ -57,12 +57,6 @@
         "mainFile": "index.ts",
         "rootDir": "react/components/text"
     },
-    "prettier": {
-        "scope": "morajlab.config",
-        "version": "0.0.1",
-        "mainFile": "index.js",
-        "rootDir": "config/prettier"
-    },
     "styles/common": {
         "scope": "morajlab.react",
         "version": "0.0.1",
@@ -74,18 +68,6 @@
         "version": "0.0.11",
         "mainFile": "index.ts",
         "rootDir": "react/types/common"
-    },
-    "typescript": {
-        "scope": "morajlab.config",
-        "version": "0.0.102",
-        "mainFile": "index.ts",
-        "rootDir": "config/typescript"
-    },
-    "utils/console": {
-        "scope": "morajlab.vanilla",
-        "version": "0.0.1",
-        "mainFile": "index.ts",
-        "rootDir": "vanilla/utils/console"
     },
     "utils/morajlab": {
         "scope": "",
