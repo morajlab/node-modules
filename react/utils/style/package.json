@@ -1,9 +1,9 @@
 {
-  "name": "@morajlab/npm.react.types.common",
+  "name": "@morajlab/npm.react.utils.style",
   "version": "0.0.1-alpha",
-  "description": "Moraj Lab common react types",
+  "description": "Moraj Lab style utility",
   "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "types": "./dist/style.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
   },
@@ -13,9 +13,11 @@
   "repository": "https://github.com/morajlab/node-modules",
   "keywords": [
     "morajlab",
-    "types",
+    "jss",
+    "style",
+    "css",
+    "react-jss",
     "react",
-    "tsconfig",
     "default",
     "nodejs",
     "javascript",
@@ -30,5 +32,8 @@
   "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "dependencies": {
+    "react-jss": "^10.8.2"
   }
 }
