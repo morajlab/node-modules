@@ -1,5 +1,5 @@
 import type { HTMLAttributes } from "react";
-import type { MLComponent } from "@morajlab/react.types.common";
+import type { MLComponent } from "@morajlab/npm.react.types.common";
 
 export interface IBareProps extends HTMLAttributes<HTMLDivElement> {
   /** Should be this a bare component */
