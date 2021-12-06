@@ -32,6 +32,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@morajlab/npm.react.utils.style": "*"
+    "@morajlab/npm.react.utils.style": "^0.0.1-alpha"
   }
 }
