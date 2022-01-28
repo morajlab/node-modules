@@ -1,6 +1,6 @@
 {
   "name": "@morajlab/node-modules",
-  "version": "0.0.1",
+  "version": "0.0.1-alpha",
   "private": true,
   "repository": {
     "type": "git",
@@ -10,15 +10,13 @@
   "license": "MIT",
   "scripts": {
     "preinstall": "npm config set '@morajlab:registry' https://npm.pkg.github.com",
-    "format:prettier": "prettier --write --ignore-unknown",
-    "format:css": "stylelint",
-    "prepare": "husky install",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "prepare": "mjw hook --install",
+    "story": "mjw story",
+    "story:build": "mjw story --build"
   },
   "lint-staged": {
-    "**/*": "npm run format:prettier",
-    "**/*.css": "npm run format:css"
+    "**/*": "mjw format --type prettier",
+    "**/*.css": "mjw lint --type stylelint"
   },
   "description": "Moraj Lab node modules",
   "bugs": {
@@ -38,23 +36,11 @@
     "typescript"
   ],
   "devDependencies": {
-    "@babel/core": "^7.16.0",
-    "@commitlint/cli": "^15.0.0",
-    "@commitlint/config-conventional": "^15.0.0",
-    "@storybook/addon-actions": "^6.4.7",
-    "@storybook/addon-essentials": "^6.4.7",
-    "@storybook/addon-links": "^6.4.7",
     "@storybook/react": "^6.4.7",
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.0.3",
-    "babel-loader": "^8.2.3",
-    "commitlint": "^15.0.0",
-    "husky": "^7.0.4",
     "lint-staged": "^12.0.3",
-    "prettier": "^2.4.1",
-    "stylelint": "^14.1.0",
-    "stylelint-config-standard": "^24.0.0",
-    "ts-node": "^10.4.0"
+    "@morajlab/npm.config.typescript": "0.0.1-alpha"
   },
   "dependencies": {
     "react-jss": "^10.8.2"
