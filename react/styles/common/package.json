@@ -1,11 +1,11 @@
 {
   "name": "@morajlab/npm.react.styles.common",
-  "version": "0.0.1-alpha",
+  "version": "0.0.101-alpha",
   "description": "Moraj Lab common react styles",
   "main": "./dist/index.js",
   "types": "./dist/common.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "mjw test"
   },
   "publishConfig": {
     "@morajlab:registry": "https://npm.pkg.github.com"
@@ -32,6 +32,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@morajlab/npm.react.utils.style": "^0.0.1-alpha"
+    "@morajlab/npm.react.utils.style": "0.0.101-alpha"
   }
 }

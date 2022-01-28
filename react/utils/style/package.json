@@ -1,11 +1,12 @@
 {
   "name": "@morajlab/npm.react.utils.style",
-  "version": "0.0.1-alpha",
+  "version": "0.0.101-alpha",
   "description": "Moraj Lab style utility",
+  "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/style.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "mjw test"
   },
   "publishConfig": {
     "@morajlab:registry": "https://npm.pkg.github.com"

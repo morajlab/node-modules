@@ -1,10 +1,10 @@
 {
   "name": "@morajlab/npm.config.typescript",
-  "version": "0.0.1-alpha",
+  "version": "0.0.101-alpha",
   "description": "Moraj Lab default typescript config",
   "main": "./index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "mjw test"
   },
   "publishConfig": {
     "@morajlab:registry": "https://npm.pkg.github.com"

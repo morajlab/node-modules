@@ -1,11 +1,11 @@
 {
   "name": "@morajlab/npm.react.components.bare",
-  "version": "0.0.1-alpha",
+  "version": "0.0.101-alpha",
   "description": "Moraj Lab bare react component",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "mjw test"
   },
   "publishConfig": {
     "@morajlab:registry": "https://npm.pkg.github.com"
@@ -29,7 +29,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@morajlab/npm.react.utils.style": "^0.0.1-alpha"
+    "@morajlab/npm.react.utils.style": "0.0.101-alpha"
   },
   "peerDependencies": {
     "react": "^17.0.2",
