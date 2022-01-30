@@ -1,6 +1,6 @@
 {
   "name": "@morajlab/node-modules",
-  "version": "0.0.1-alpha",
+  "version": "0.0.x-alpha",
   "private": true,
   "repository": {
     "type": "git",
@@ -12,7 +12,8 @@
     "preinstall": "npm config set '@morajlab:registry' https://npm.pkg.github.com",
     "prepare": "mjw hook --install",
     "story": "mjw story",
-    "story:build": "mjw story --build"
+    "story:build": "mjw story --build",
+    "runc": "ts-node --cwd=./scripts"
   },
   "lint-staged": {
     "**/*": "mjw format --type prettier",
@@ -42,6 +43,7 @@
     "@types/jest": "^27.0.3",
     "lint-staged": "^12.0.3",
     "next-transpile-modules": "^9.0.0",
+    "ts-node": "^10.4.0",
     "typescript": "^4.5.5"
   },
   "dependencies": {
