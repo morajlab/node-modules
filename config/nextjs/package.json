@@ -2,8 +2,8 @@
   "name": "@morajlab/npm.config.nextjs",
   "version": "0.0.1-alpha",
   "description": "Moraj Lab default nextjs config",
-  "main": "./src/index.js",
-  "types": "./src/index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "test": "mjw test"
   },
