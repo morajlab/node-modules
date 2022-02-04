@@ -17,6 +17,7 @@
   },
   "lint-staged": {
     "**/*": "mjw format --type prettier",
+    "**/*.py": "mjw format --type black",
     "**/*.css": "mjw lint --type stylelint"
   },
   "description": "Moraj Lab node modules",

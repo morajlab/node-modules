@@ -4,7 +4,7 @@ version = "0.0.1-alpha"
 description = "Moraj Lab node modules"
 authors = ["Morteza Jamali <mortezajamali4241@gmail.com>"]
 packages = [
-  { include = "scripts" }
+  { include = "node__modules" }
 ]
 
 [tool.poetry.dependencies]
@@ -19,4 +19,5 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-new = "scripts.new:new"
+new = "node__modules.scripts.new:new"
+template = "node__modules.scripts.template:template"
