@@ -3,6 +3,7 @@ import os
 import shutil
 from ..src.template import listTemplates, DEFAULT_TEMPLATE_FILE_NAME
 from ..src.path import getPackagePath, getTemplatePath
+from ..src.log import error, success
 
 
 @click.command()
@@ -31,18 +32,8 @@ def new(name, directory, template):
             ignore=shutil.ignore_patterns(DEFAULT_TEMPLATE_FILE_NAME),
             dirs_exist_ok=False,
         )
-        click.echo(
-            "{}: {}".format(
-                click.style("SUCCESS", bg="green"),
-                "package '{}' created in path '{}'.".format(name, directory),
-            )
-        )
+        success("package '{}' created in path '{}'.".format(name, directory))
     except FileExistsError:
-        click.echo(
-            "{}: {}".format(
-                click.style("ERROR", bg="red"),
-                "path '%s' already exists." % os.path.join(directory, name),
-            )
-        )
+        error("path '%s' already exists." % os.path.join(directory, name))
     except Exception as ex:
         raise ex from None

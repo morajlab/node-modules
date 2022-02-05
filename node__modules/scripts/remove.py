@@ -2,6 +2,7 @@ import click
 import shutil
 import os
 from ..src.path import getPackagePath
+from ..src.log import error, success
 
 
 @click.command()
@@ -21,18 +22,8 @@ def remove(name, directory, remote):
 
     try:
         shutil.rmtree(os.path.join(directory, name), ignore_errors=False)
-        click.echo(
-            "{}: {}".format(
-                click.style("SUCCESS", bg="green"),
-                "package '{}' removed from path '{}'.".format(name, directory),
-            )
-        )
+        success("package '{}' removed from path '{}'.".format(name, directory))
     except FileNotFoundError:
-        click.echo(
-            "{}: {}".format(
-                click.style("ERROR", bg="red"),
-                "package '{}' doesn't exist in path '{}'.".format(name, directory),
-            )
-        )
+        error("package '{}' doesn't exist in path '{}'.".format(name, directory))
     except Exception as ex:
         raise ex from None
