@@ -10,10 +10,7 @@
   "license": "MIT",
   "scripts": {
     "preinstall": "npm config set '@morajlab:registry' https://npm.pkg.github.com",
-    "prepare": "mjw hook --install",
-    "story": "mjw story",
-    "story:build": "mjw story --build",
-    "runc": "ts-node --cwd=./scripts"
+    "prepare": "mjw hook --install"
   },
   "lint-staged": {
     "**/*": "mjw format --type prettier",
