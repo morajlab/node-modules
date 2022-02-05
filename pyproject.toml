@@ -21,3 +21,4 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry.scripts]
 new = "node__modules.scripts.new:new"
 template = "node__modules.scripts.template:template"
+remove = "node__modules.scripts.remove:remove"
