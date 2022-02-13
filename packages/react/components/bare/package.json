@@ -1,6 +1,6 @@
 {
   "name": "@morajlab/npm.react.components.bare",
-  "version": "0.0.101-alpha",
+  "version": "0.0.102-alpha",
   "description": "Moraj Lab bare react component",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
