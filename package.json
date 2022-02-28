@@ -8,14 +8,10 @@
   },
   "author": "Morteza Jamali <mortezajamali4241@gmail.com> (https://moraj.ir)",
   "license": "MIT",
-  "scripts": {
-    "preinstall": "npm config set '@morajlab:registry' https://npm.pkg.github.com",
-    "prepare": "mjw hook --install"
-  },
   "lint-staged": {
-    "**/*": "mjw format --type prettier",
-    "**/*.py": "mjw format --type black",
-    "**/*.css": "mjw lint --type stylelint"
+    "**/*": "mjw format --type prettier || exit 0",
+    "**/*.py": "mjw format --type black || exit 0",
+    "**/*.css": "mjw lint --type stylelint || exit 0"
   },
   "description": "Moraj Lab node modules",
   "bugs": {
@@ -41,6 +37,7 @@
     "@storybook/react": "^6.4.7",
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.0.3",
+    "@types/which": "^2.0.1",
     "lint-staged": "^12.0.3",
     "next-transpile-modules": "^9.0.0",
     "ts-loader": "^9.2.6",
@@ -50,7 +47,9 @@
     "webpack-cli": "^4.9.2"
   },
   "dependencies": {
+    "boxen": "^6.2.1",
     "next": "^12.0.9",
-    "react-jss": "^10.8.2"
+    "react-jss": "^10.8.2",
+    "which": "^2.0.2"
   }
 }
