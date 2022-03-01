@@ -3,11 +3,11 @@
 install:
 	@poetry install
 	@npm config set '@morajlab:registry' https://npm.pkg.github.com
-	@yarn
+	@npm install
 	@mjw hook --install
 
 test:
 	@mjw test
 
 lint_staged:
-	exit 0 || @npx --no-install lint-staged
+	@npx --no-install lint-staged

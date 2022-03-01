@@ -1,4 +1,4 @@
-import { createStyles } from "@morajlab/npm.react.utils.style";
+import { createStyles } from '@morajlab/npm.react.utils.style';
 
 export const Styles = createStyles({ root: {} });
 

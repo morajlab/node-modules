@@ -1,3 +1,0 @@
-{
-  "extends": "./node_modules/@morajlab/npm.config.typescript/ts-node.json"
-}

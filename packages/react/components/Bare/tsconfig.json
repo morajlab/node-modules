@@ -3,8 +3,7 @@
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "./dist",
-    "baseUrl": ".",
-    "module": "commonjs"
+    "baseUrl": "."
   },
   "exclude": [
     "node_modules",
