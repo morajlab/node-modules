@@ -1,1 +1,1 @@
-export * from "./style";
+export * from './lib/react-utils-style';

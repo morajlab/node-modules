@@ -6,6 +6,12 @@
     "config-typescript": "packages/config/typescript",
     "config-webpack": "packages/config/webpack",
     "mjw-runner": "packages/mjw/runner",
-    "mjw-types": "packages/mjw/types"
+    "mjw-types": "packages/mjw/types",
+    "react-components": "packages/react/components",
+    "react-components-src-lib-bare-bare": "packages/react/components/src/lib/bare/bare",
+    "react-styles-common": "packages/react/styles/common",
+    "react-types-common": "packages/react/types/common",
+    "react-utils-merge-props": "packages/react/utils/merge-props",
+    "react-utils-style": "packages/react/utils/style"
   }
 }

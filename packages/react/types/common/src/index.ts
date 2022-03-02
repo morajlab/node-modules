@@ -1,1 +1,1 @@
-export type { MLComponent } from "./common";
+export * from './lib/react-types-common';

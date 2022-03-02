@@ -1,0 +1,45 @@
+{
+  "root": "packages/react/components/src/lib/bare/bare",
+  "sourceRoot": "packages/react/components/src/lib/bare/bare/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:rollup",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/react/components/src/lib/bare/bare",
+        "tsConfig": "packages/react/components/src/lib/bare/bare/tsconfig.lib.json",
+        "project": "packages/react/components/src/lib/bare/bare/package.json",
+        "entryFile": "packages/react/components/src/lib/bare/bare/src/index.ts",
+        "external": ["react/jsx-runtime"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "compiler": "babel",
+        "assets": [
+          {
+            "glob": "packages/react/components/src/lib/bare/bare/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "packages/react/components/src/lib/bare/bare/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/react/components/src/lib/bare/bare"],
+      "options": {
+        "jestConfig": "packages/react/components/src/lib/bare/bare/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

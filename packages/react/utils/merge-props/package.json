@@ -1,29 +1,5 @@
 {
   "name": "@morajlab/npm.react.utils.merge-props",
-  "version": "0.0.1-alpha",
-  "description": "Merge props for react components",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "scripts": {
-    "test": "mjw test"
-  },
-  "publishConfig": {
-    "@morajlab:registry": "https://npm.pkg.github.com"
-  },
-  "repository": "https://github.com/morajlab/node-modules",
-  "keywords": [
-    "morajlab",
-    "nodejs",
-    "javascript",
-    "typescripts",
-    "merge",
-    "react",
-    "props"
-  ],
-  "author": {
-    "name": "Morteza Jamali",
-    "email": "mortezajamali4241@gmail.com",
-    "url": "https://moraj.ir"
-  },
-  "license": "MIT"
+  "version": "0.0.1",
+  "type": "commonjs"
 }

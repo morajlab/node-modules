@@ -1,3 +1,11 @@
-# @morajlab/npm.react.styles.common
+# react-styles-common
 
-Moraj Lab common react styles
+This library was generated with [Nx](https://nx.dev).
+
+## Building
+
+Run `nx build react-styles-common` to build the library.
+
+## Running unit tests
+
+Run `nx test react-styles-common` to execute the unit tests via [Jest](https://jestjs.io).
