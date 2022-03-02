@@ -22,7 +22,9 @@
       "@morajlab/npm.config.typescript": [
         "packages/config/typescript/src/index.ts"
       ],
-      "@morajlab/npm.config.webpack": ["packages/config/webpack/src/index.ts"]
+      "@morajlab/npm.config.webpack": ["packages/config/webpack/src/index.ts"],
+      "@morajlab/npm.mjw.runner": ["packages/mjw/runner/src/index.ts"],
+      "@morajlab/npm.mjw.types": ["packages/mjw/types/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

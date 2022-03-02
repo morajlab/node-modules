@@ -1,3 +1,11 @@
-# @morajlab/npm.nextjs
+# mjw-types
 
-MJW next.js plugin
+This library was generated with [Nx](https://nx.dev).
+
+## Building
+
+Run `nx build mjw-types` to build the library.
+
+## Running unit tests
+
+Run `nx test mjw-types` to execute the unit tests via [Jest](https://jestjs.io).

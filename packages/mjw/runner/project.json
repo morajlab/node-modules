@@ -1,0 +1,33 @@
+{
+  "root": "packages/mjw/runner",
+  "sourceRoot": "packages/mjw/runner/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/mjw/runner",
+        "main": "packages/mjw/runner/src/index.ts",
+        "tsConfig": "packages/mjw/runner/tsconfig.lib.json",
+        "assets": ["packages/mjw/runner/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/mjw/runner/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/mjw/runner"],
+      "options": {
+        "jestConfig": "packages/mjw/runner/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}
