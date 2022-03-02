@@ -1,3 +1,11 @@
-# @morajlab/npm.config.prettier
+# config-prettier
 
-Moraj Lab default prettier config
+This library was generated with [Nx](https://nx.dev).
+
+## Building
+
+Run `nx build config-prettier` to build the library.
+
+## Running unit tests
+
+Run `nx test config-prettier` to execute the unit tests via [Jest](https://jestjs.io).

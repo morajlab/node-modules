@@ -1,0 +1,33 @@
+{
+  "root": "packages/config/prettier",
+  "sourceRoot": "packages/config/prettier/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/config/prettier",
+        "main": "packages/config/prettier/src/index.ts",
+        "tsConfig": "packages/config/prettier/tsconfig.lib.json",
+        "assets": ["packages/config/prettier/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/config/prettier/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/config/prettier"],
+      "options": {
+        "jestConfig": "packages/config/prettier/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

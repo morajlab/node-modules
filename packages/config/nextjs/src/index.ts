@@ -1,9 +1,2 @@
-import { NextConfig } from "next";
-
-export default {
-  reactStrictMode: true,
-  swcMinify: true,
-  images: {
-    formats: ["image/avif", "image/webp"],
-  },
-} as NextConfig;
+export * from './lib/config-nextjs';
+export { default } from './lib/config-nextjs';

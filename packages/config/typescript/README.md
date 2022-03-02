@@ -1,3 +1,11 @@
-# @morajlab/npm.config.typescript
+# config-typescript
 
-Moraj Lab default typescript config
+This library was generated with [Nx](https://nx.dev).
+
+## Building
+
+Run `nx build config-typescript` to build the library.
+
+## Running unit tests
+
+Run `nx test config-typescript` to execute the unit tests via [Jest](https://jestjs.io).

@@ -14,7 +14,16 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@morajlab/npm.config.nextjs": ["packages/config/nextjs/src/index.ts"],
+      "@morajlab/npm.config.prettier": [
+        "packages/config/prettier/src/index.ts"
+      ],
+      "@morajlab/npm.config.typescript": [
+        "packages/config/typescript/src/index.ts"
+      ],
+      "@morajlab/npm.config.webpack": ["packages/config/webpack/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

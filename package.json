@@ -4,26 +4,37 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "@nrwl/cli": "13.8.3",
-    "@nrwl/nx-cloud": "latest",
-    "@nrwl/tao": "13.8.3",
-    "@nrwl/workspace": "13.8.3",
-    "@types/node": "16.11.7",
-    "prettier": "^2.5.1",
-    "typescript": "~4.5.2",
-    "boxen": "^6.2.1",
-    "classnames": "^2.3.1",
-    "merge-anything": "^5.0.2",
-    "next": "^12.0.9",
-    "react-jss": "^10.8.2",
-    "which": "^2.0.2",
     "@morajlab/npm.config.typescript": "0.0.1-alpha",
     "@morajlab/npm.react.types.common": "^0.0.1-alpha",
     "@morajlab/npm.react.utils.style": "^0.0.101-alpha",
+    "@nrwl/cli": "13.8.3",
+    "@nrwl/eslint-plugin-nx": "13.8.3",
+    "@nrwl/jest": "13.8.3",
+    "@nrwl/linter": "13.8.3",
+    "@nrwl/next": "^13.8.3",
+    "@nrwl/nx-cloud": "latest",
+    "@nrwl/tao": "13.8.3",
+    "@nrwl/workspace": "13.8.3",
+    "@types/jest": "27.0.2",
+    "@types/node": "16.11.7",
     "@types/which": "^2.0.1",
+    "@typescript-eslint/eslint-plugin": "~5.10.0",
+    "@typescript-eslint/parser": "~5.10.0",
+    "boxen": "^6.2.1",
+    "classnames": "^2.3.1",
+    "eslint": "~8.7.0",
+    "eslint-config-prettier": "8.1.0",
+    "jest": "27.2.3",
     "lint-staged": "^12.0.3",
+    "merge-anything": "^5.0.2",
+    "next": "^12.0.9",
     "next-transpile-modules": "^9.0.0",
-    "ts-node": "^10.4.0"
+    "prettier": "^2.5.1",
+    "react-jss": "^10.8.2",
+    "ts-jest": "27.0.5",
+    "ts-node": "^10.4.0",
+    "typescript": "~4.5.2",
+    "which": "^2.0.2"
   },
   "workspaces": [
     "packages/**"
@@ -54,5 +65,8 @@
     "micro",
     "javascript",
     "typescript"
-  ]
+  ],
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
 }

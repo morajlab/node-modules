@@ -1,4 +1,9 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "config-nextjs": "packages/config/nextjs",
+    "config-prettier": "packages/config/prettier",
+    "config-typescript": "packages/config/typescript",
+    "config-webpack": "packages/config/webpack"
+  }
 }

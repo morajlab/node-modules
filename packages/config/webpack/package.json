@@ -5,8 +5,7 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "mjw test",
-    "build": "tsc"
+    "test": "mjw test"
   },
   "publishConfig": {
     "@morajlab:registry": "https://npm.pkg.github.com"
