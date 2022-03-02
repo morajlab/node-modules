@@ -1,1 +1,1 @@
-export * from './lib/ReactComponentsSrcLibBareBare';
+export * from './lib';
