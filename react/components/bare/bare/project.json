@@ -1,0 +1,76 @@
+{
+  "root": "packages/node-modules/react/components/bare/bare",
+  "sourceRoot": "packages/node-modules/react/components/bare/bare/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:rollup",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/node-modules/react/components/bare/bare",
+        "tsConfig": "packages/node-modules/react/components/bare/bare/tsconfig.lib.json",
+        "project": "packages/node-modules/react/components/bare/bare/package.json",
+        "entryFile": "packages/node-modules/react/components/bare/bare/src/index.ts",
+        "external": ["react/jsx-runtime"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "compiler": "babel",
+        "assets": [
+          {
+            "glob": "packages/node-modules/react/components/bare/bare/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "packages/node-modules/react/components/bare/bare/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/node-modules/react/components/bare/bare"],
+      "options": {
+        "jestConfig": "packages/node-modules/react/components/bare/bare/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "storybook": {
+      "executor": "@nrwl/storybook:storybook",
+      "options": {
+        "uiFramework": "@storybook/react",
+        "port": 4400,
+        "config": {
+          "configFolder": "packages/node-modules/react/components/bare/bare/.storybook"
+        }
+      },
+      "configurations": {
+        "ci": {
+          "quiet": true
+        }
+      }
+    },
+    "build-storybook": {
+      "executor": "@nrwl/storybook:build",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "uiFramework": "@storybook/react",
+        "outputPath": "dist/storybook/node-modules-react-components-bare-bare",
+        "config": {
+          "configFolder": "packages/node-modules/react/components/bare/bare/.storybook"
+        }
+      },
+      "configurations": {
+        "ci": {
+          "quiet": true
+        }
+      }
+    }
+  }
+}

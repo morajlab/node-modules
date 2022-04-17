@@ -1,0 +1,45 @@
+{
+  "root": "packages/node-modules/react/types/common",
+  "sourceRoot": "packages/node-modules/react/types/common/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:rollup",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/node-modules/react/types/common",
+        "tsConfig": "packages/node-modules/react/types/common/tsconfig.lib.json",
+        "project": "packages/node-modules/react/types/common/package.json",
+        "entryFile": "packages/node-modules/react/types/common/src/index.ts",
+        "external": ["react/jsx-runtime"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "compiler": "babel",
+        "assets": [
+          {
+            "glob": "packages/node-modules/react/types/common/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "packages/node-modules/react/types/common/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/node-modules/react/types/common"],
+      "options": {
+        "jestConfig": "packages/node-modules/react/types/common/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

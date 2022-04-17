@@ -1,0 +1,30 @@
+{
+  "root": "packages/node-modules/react/components/bare/bare-e2e",
+  "sourceRoot": "packages/node-modules/react/components/bare/bare-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "packages/node-modules/react/components/bare/bare-e2e/cypress.json",
+        "devServerTarget": "node-modules-react-components-bare-bare:storybook"
+      },
+      "configurations": {
+        "ci": {
+          "devServerTarget": "node-modules-react-components-bare-bare:storybook:ci"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "packages/node-modules/react/components/bare/bare-e2e/**/*.{js,ts}"
+        ]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["node-modules-react-components-bare-bare"]
+}

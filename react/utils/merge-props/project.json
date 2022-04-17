@@ -1,0 +1,45 @@
+{
+  "root": "packages/node-modules/react/utils/merge-props",
+  "sourceRoot": "packages/node-modules/react/utils/merge-props/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:rollup",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/node-modules/react/utils/merge-props",
+        "tsConfig": "packages/node-modules/react/utils/merge-props/tsconfig.lib.json",
+        "project": "packages/node-modules/react/utils/merge-props/package.json",
+        "entryFile": "packages/node-modules/react/utils/merge-props/src/index.ts",
+        "external": ["react/jsx-runtime"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "compiler": "babel",
+        "assets": [
+          {
+            "glob": "packages/node-modules/react/utils/merge-props/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "packages/node-modules/react/utils/merge-props/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/node-modules/react/utils/merge-props"],
+      "options": {
+        "jestConfig": "packages/node-modules/react/utils/merge-props/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}
