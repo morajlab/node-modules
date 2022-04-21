@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "node-modules"
+version = "0.0.1-alpha"
+description = "Moraj Lab node modules"
+authors = ["Morteza Jamali <mortezajamali4241@gmail.com>"]
+packages = [
+  { include = "node__modules" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tabulate = "^0.8.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+click = "^8.0.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+new = "node__modules.scripts.new:new"
+template = "node__modules.scripts.template:template"
+remove = "node__modules.scripts.remove:remove"
+build = "node__modules.scripts.build:build"
+publish = "node__modules.scripts.publish:publish"

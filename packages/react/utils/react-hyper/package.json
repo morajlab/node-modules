@@ -1,0 +1,35 @@
+{
+  "name": "@morajlab/npm.react.utils.react-hyper",
+  "version": "0.0.1-alpha",
+  "description": "Moraj Lab react-hyper utility",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "publishConfig": {
+    "@morajlab:registry": "https://npm.pkg.github.com"
+  },
+  "repository": "https://github.com/morajlab/node-modules.git",
+  "keywords": [
+    "morajlab",
+    "hyper",
+    "mini",
+    "react-hyper",
+    "react",
+    "default",
+    "nodejs",
+    "javascript",
+    "typescripts"
+  ],
+  "author": "Morteza Jamali <mortezajamali4241@gmail.com> (https://moraj.ir)",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/morajlab/node-modules/issues"
+  },
+  "homepage": "https://github.com/morajlab/node-modules#readme"
+}
