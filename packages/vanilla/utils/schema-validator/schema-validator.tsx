@@ -1,11 +1,11 @@
-import { readFileSync } from "fs";
-import { join } from "path";
-import Ajv from "ajv";
-import type { ValidateFunction } from "ajv";
+import { readFileSync } from 'fs';
+import { join } from 'path';
+import Ajv from 'ajv';
+import type { ValidateFunction } from 'ajv';
 
 export type SchemaValidatorReturnType = {
   validated: boolean;
-  message?: ValidateFunction<unknown>["errors"];
+  message?: ValidateFunction<unknown>['errors'];
 };
 
 export interface ISchemaValidatorProps {
@@ -21,10 +21,10 @@ export interface ISchemaValidator {
 export const schemaValidator: ISchemaValidator = ({
   data,
   schemaName,
-  schemaPath = join(process.cwd(), "schemas"),
+  schemaPath = join(process.cwd(), 'schemas'),
 }) => {
   const schema = JSON.parse(
-    readFileSync(join(schemaPath, `${schemaName}.json`), "utf-8")
+    readFileSync(join(schemaPath, `${schemaName}.json`), 'utf-8')
   );
 
   delete schema?.$schema;

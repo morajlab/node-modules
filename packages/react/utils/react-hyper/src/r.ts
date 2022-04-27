@@ -1,8 +1,8 @@
-import React from "react";
-import R from "../types/index";
-import is from "./lib/Validator";
-import { Map } from "immutable";
-import { Parser } from "./lib/Parser";
+import React from 'react';
+import R from '../types/index';
+import is from './lib/Validator';
+import { Map } from 'immutable';
+import { Parser } from './lib/Parser';
 
 const customComponentFunctions = {
   repeat(prop: number) {
@@ -14,11 +14,11 @@ const customComponentFunctions = {
   },
   class(prop: string | string[]) {
     const unfreezedObjectProps = { ...this.props };
-    prop = typeof prop === "string" ? [prop] : prop;
+    prop = typeof prop === 'string' ? [prop] : prop;
 
     unfreezedObjectProps.className = unfreezedObjectProps.className
-      ? [...unfreezedObjectProps.className.split(" "), ...prop].join(" ")
-      : prop.join(" ");
+      ? [...unfreezedObjectProps.className.split(' '), ...prop].join(' ')
+      : prop.join(' ');
 
     return r([
       Object.freeze(
@@ -41,7 +41,7 @@ const customComponentFunctions = {
         const nestedPropsObject = Object.freeze({
           props: nestedProps.merge(Map(prop)).toObject(),
         });
-        const nestedChildren = Map(unfreezedObjectProps.get("children") as any);
+        const nestedChildren = Map(unfreezedObjectProps.get('children') as any);
 
         const nestedChildrenObject = Object.freeze({
           children: nestedChildren.merge(nestedPropsObject).toObject(),
@@ -93,7 +93,7 @@ const render: R.RenderFunctionType = (component, properties, children) => {
     properties.attributes = undefined;
   }
 
-  if (typeof component === "string") {
+  if (typeof component === 'string') {
     component = Parser(component, properties);
   }
 

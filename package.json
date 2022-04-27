@@ -70,9 +70,8 @@
   },
   "author": "Morteza Jamali <mortezajamali4241@gmail.com> (https://moraj.ir)",
   "lint-staged": {
-    "**/*": "mjw format --type prettier",
-    "**/*.py": "mjw format --type black",
-    "**/*.css": "mjw lint --type stylelint"
+    "**/*": "prettier -u -w",
+    "**/*.css": "stylelint"
   },
   "description": "Moraj Lab node modules",
   "bugs": {

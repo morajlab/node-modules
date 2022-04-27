@@ -3,16 +3,16 @@ const NO_CLASS_ID = /^\.|#/;
 
 export const Parser = (tag: any, props: any) => {
   if (!tag) {
-    return "div";
+    return 'div';
   }
 
-  let noId = !("id" in props);
+  let noId = !('id' in props);
 
   let tagParts = tag.split(CLASS_ID_SPLIT);
   let tagName = null;
 
   if (NO_CLASS_ID.test(tagParts[1])) {
-    tagName = "div";
+    tagName = 'div';
   }
 
   let classes: any;
@@ -30,10 +30,10 @@ export const Parser = (tag: any, props: any) => {
 
     if (!tagName) {
       tagName = part;
-    } else if (type === ".") {
+    } else if (type === '.') {
       classes = classes || [];
       classes.push(part.substring(1, part.length));
-    } else if (type === "#" && noId) {
+    } else if (type === '#' && noId) {
       props.id = part.substring(1, part.length);
     }
   }
@@ -43,8 +43,8 @@ export const Parser = (tag: any, props: any) => {
       classes.push(props.className);
     }
 
-    props.className = classes.join(" ");
+    props.className = classes.join(' ');
   }
 
-  return tagName ? tagName.toLowerCase() : "div";
+  return tagName ? tagName.toLowerCase() : 'div';
 };

@@ -1,6 +1,6 @@
-import tags from "./data/tags";
-import is from "./lib/Validator";
-import r from "./r";
+import tags from './data/tags';
+import is from './lib/Validator';
+import r from './r';
 
 const DEFAULT_TAG_NAMES: any = tags.defaults;
 //const SVG_TAG_NAMES: any = tags.svg;

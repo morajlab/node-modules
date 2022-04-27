@@ -1,4 +1,4 @@
-import { bgRed, bgGreen, bgWhite, bgYellow } from "chalk";
+import { bgRed, bgGreen, bgWhite, bgYellow } from 'chalk';
 
 export interface IConsole {
   info(message: string): void;
@@ -13,16 +13,16 @@ export const log = console.log;
 
 export const Console: IConsole = {
   info(message: string) {
-    log(bgWhite("INFO").concat(`:: ${message}`));
+    log(bgWhite('INFO').concat(`:: ${message}`));
   },
   error(message: string) {
-    log(bgRed("ERROR").concat(`:: ${message}`));
+    log(bgRed('ERROR').concat(`:: ${message}`));
   },
   warn(message: string) {
-    log(bgYellow("WARNING").concat(`:: ${message}`));
+    log(bgYellow('WARNING').concat(`:: ${message}`));
   },
   success(message: string) {
-    log(bgGreen("SUCCESS").concat(`:: ${message}`));
+    log(bgGreen('SUCCESS').concat(`:: ${message}`));
   },
   nl() {
     log();
